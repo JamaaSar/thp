@@ -1,0 +1,145 @@
+body{
+  margin: 0;
+  padding: 0;
+
+
+}
+
+#partieHautDroit{
+  justify-content: flex-end;
+  display: flex;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+
+}
+nav
+li{
+  margin-right: 15px;;
+}
+
+nav a{
+  font-size: 14px;
+  color : black;
+  padding-bottom:3px;
+  text-decoration: none;
+}
+
+
+.utilisateur a{
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+color:black;
+text-decoration:none;
+}
+.connection{
+   background: #3486eb;
+   font-size: 14px;
+   text-align: center;
+   border-radius: 2px;
+   padding: 7px 10px 7px 10px;
+   color: white;
+}
+#logo{
+  display: flex;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding-top: 300px;
+}
+.photoLogo{
+  width: 250px;
+  height: 100px;
+
+}
+
+.searchBox{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  height: 40px;
+  width: 470px;
+  border-radius: 20px;
+  border-color: grey;
+  border-style: solid;
+  border-width: thin;
+  background: white;
+
+}
+.imgSearch{
+  position: absolute;
+  top: 50%;
+  left:33%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  height: 20px;
+  width: 20px;
+
+}
+.lesBtn{
+  display: flex;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.btnSearch, .btnChance{
+  width: 130px;
+  height: 40px;
+  background: #f0f0f0;
+  font-size: 13px;
+  color: #636363;
+  padding: 1px 2px 2px 1px;
+  border-radius: 2px;
+  border: none;
+  margin: 1px;
+
+}
+
+footer
+{
+  position: absolute;
+  top: 88%;
+  background-color: #f0f0f0;
+  height: 14%;
+  width:100%;
+  padding-top: 2px;
+}
+hr{
+  border-top: 1px solid #b3b3b3;
+  margin-top: -1px;
+  padding-top: -1px;
+}
+footer p{
+  color: #636363;
+  font-size: 15px;
+  font-family: sans-serif,Arial;
+  margin-top: 0px;
+  margin-left: 18px;
+}
+
+#partieBas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  font-family: sans-serif,Arial;
+  color: #636363;
+  font-size: 15px;
+  margin-top: -19px;
+  margin-left: -23px;
+
+}
+.pub, .entre, .publicatoin, .info, .confi,.condi{
+  font-size: 15px;
+  font-family: sans-serif,Arial;
+  color: #636363;
+}

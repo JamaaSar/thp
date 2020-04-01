@@ -1,0 +1,25 @@
+*
+{
+  color: #444;
+
+}
+body{
+  line-height: 1.6;
+  background: #EEEEEE;
+  render: 18px;
+  font-size: 17px;
+  margin: 20px auto ;
+  padding: 0px;
+  max-width: 600px;
+}
+h2,h3,h4{
+  line-height: 1.4;
+  line-height: 1.6;
+
+}
+em{
+  font-style: italic;
+}
+code{
+  font-size: 17px;
+}

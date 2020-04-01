@@ -1,0 +1,118 @@
+html
+{
+  color: #444;
+  background: #EEEEEE
+
+
+}
+body{
+  font-family: Arial, monospace;
+  font-weight: lighter;;
+  line-height: 1.4;
+  font-size: 14px;
+  text-align: justify;;
+  margin: 20px auto ;
+  padding: 1px;
+  max-width: 750px
+
+}
+
+h2,h3,h4{
+  line-height: 1.4
+
+}
+
+small{
+  font-size: 6px
+}
+code{
+  font-size: 17px
+}
+span.wrong{
+  color: #990000;
+  text-decoration: underline
+}
+span.motherf{
+  color: #990000
+}
+span.carreNoir,span.carreNoirBetter{
+  font-weight: 600
+}
+span.carreNoir::before{
+  display: inline-block;
+  content: " ";
+  background-color: #444;
+  height: 15px;
+  width: 15px
+}
+span.carreNoirBetter::before{
+  display: inline-block;
+  content: " ";
+  background-color: #454545;
+  height: 15px;
+  width: 15px
+}
+div.partieImageText div.photoDog{
+  width: 40%;
+  float: left;
+  overflow: hidden;
+  margin-right: 1em
+}
+
+div.partieImageText div.photoDog .imageDeDog{
+  width: 100%
+}
+div.partieImageText div.photoDog p.descrip{
+  font-size: 9px
+}
+div.partieImageText div.text{
+  width: 50%;
+  float: left;
+
+}
+div.partieImageText div.text p:first-child{
+  margin-top: 0
+}
+div.partieImageText::after{
+    display: block;
+    content: "";
+      clear:both
+}
+
+blockquote {
+    color: #456;
+    margin-left: 0;
+    margin-top: 2em;
+    margin-bottom:2em
+}
+
+blockquote span {
+    float: left;
+    margin-left: 1rem;
+    padding-top:1rem
+}
+
+blockquote:before {
+    font-family: "Apple Chancery",Arial,cursive;
+    content: open-quote;
+    font-size: 37px;
+    float: left;
+}
+
+blockquote p.author {
+    clear: both;
+    font-size: 9px;
+    margin-left: 33.5px;
+    font-style:oblique
+}
+
+blockquote .author:before {
+    content: "- ";
+    margin-right:0.1px
+}
+
+blockquote:after {
+    content: "";
+    display: block;
+    clear:both
+}

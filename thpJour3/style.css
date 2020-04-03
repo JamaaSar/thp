@@ -1,0 +1,8 @@
+.jumbotron-fluid{
+  height: 500px;
+  background-image: url("surfing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
